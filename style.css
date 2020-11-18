@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  background: linear-gradient(
+    0deg,
+    rgba(106, 106, 106, 1) 0%,
+    rgba(50, 50, 50, 1) 100%
+  );
+  background-attachment: fixed;
+}
+/* #main-nav {
+  width: 100px;
+} */
+#nav-home {
+  padding-right: 20px;
+  font-size: 1.5em;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#pause-icon {
+  color: #fff;
+  margin-right: 10px;
+}
+
+#container {
+  padding: 0px;
+  height: 100%;
+  background-color: #232323;
+}
+.content-header {
+  border-bottom: 6px solid #444;
+}
+
+.content-header-text {
+  color: #fff;
+}
