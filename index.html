@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Natthapong Jiemjintanarom</title>
     <link
       rel="shortcut icon"
       href="./assets/pause-circle-regular.svg"
@@ -41,12 +41,16 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/media-query-lt-991-all-page.css" />
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- <div class="row"> -->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark container fixed-top"
+      >
         <i class="far fa-2x fa-pause-circle pause-icon"></i>
-        <a class="navbar-brand" id="nav-home" href="#">BABE</a>
+        <a class="navbar-brand" id="nav-home" href="./index.html">BABE</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -60,7 +64,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <span class="navbar-text mr-auto">Personal Resume</span>
+          <span class="navbar-text mr-auto"></span>
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="index.html">About</a>
@@ -69,14 +73,16 @@
               <a class="nav-link" href="experience.html">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="connect.html">Connect</a>
+              <a class="nav-link" href="honor.html">Honors & Awards</a>
             </li>
           </ul>
         </div>
       </nav>
+      <!-- </div> -->
+      <div style="height: 56px"></div>
       <div class="content-header row">
-        <div class="content-header-text col-9">About Me</div>
-        <div class="content-header-link col-3">
+        <div class="content-header-text">About Me</div>
+        <div class="content-header-link">
           <a href="https://www.facebook.com/100001482323521" target="_blank"
             ><img
               class="sns-icon"
@@ -96,20 +102,40 @@
           </a>
         </div>
       </div>
-      <div class="content-body row">
+      <div class="content-body row justify-content-center">
         <div class="content-body-side col-3">
           <img src="./assets/profile.jpg" alt="profile image" width="250px" />
         </div>
-        <div class="content-body-text col-7">
-          <div class="name">Natthapong Jiemjintanarom</div>
+        <div class="content-body-text col">
+          <div class="name">Natthapong Jiemjintanarom (Babe)</div>
           <div class="about-description">
             <p class="indent">
               Junior Backend developer at Allianz Technology Thailand. Looking
               for opportunity to practice English language and coding skill.
-              Love to play computer games and play with cat. To see more
-              information, please visit Experience tab or click
-              <a href="?Experience">HERE</a>
+              Love to play computer games and play with cat. To see experience,
+              please visit Experience tab or click
+              <a href="./experience.html">HERE</a>
             </p>
+            <br />
+            <p class="bold">Skill</p>
+            <div class="row">
+              <div class="skill">
+                <li>python and Node.js</li>
+                <li>Version control (Git on github)</li>
+                <li>Amazon Web Service (AWS) e.g. EC2, S3</li>
+                <li>NoSQL e.g. MongoDB and DynamoDB</li>
+                <li>Agile and Scrum development</li>
+                <li>
+                  Experience in containerize like Docker and Kubernetes (ECR +
+                  EKS)
+                </li>
+                <li>Frontend development using React framework</li>
+                <li>Experience in some linux system admin basic command</li>
+                <li>Entry-level in in-memory database e.g. Redis</li>
+                <li>Entry-level in CI/CD</li>
+              </div>
+            </div>
+            <br />
             <div class="row">
               <p class="col">
                 <i class="fas fa-paper-plane"></i> natthapong41@gmail.com

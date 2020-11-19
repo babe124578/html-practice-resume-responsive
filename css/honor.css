@@ -43,8 +43,8 @@ div.container {
 }
 .card {
   width: 16rem;
-  margin: 5px;
-  height: 300px;
+  margin: 5px 20px;
+  height: auto;
   border: none;
   border-radius: 2em;
   background-color: #292929;
@@ -54,9 +54,16 @@ div.container {
   font-size: 14px;
 }
 .card-body {
+  padding-top: 0;
   background-color: #292929;
-  border-radius: 2em;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
   border: none;
+}
+.card-img-top {
+  margin: auto;
+  height: 80px;
+  width: 6em;
 }
 .card-text {
   font-size: 13px;

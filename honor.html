@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Natthapong Jiemjintanarom</title>
     <link
       rel="shortcut icon"
       href="./assets/pause-circle-regular.svg"
@@ -40,13 +40,16 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./css/connect.css" />
+    <link rel="stylesheet" href="./css/honor.css" />
+    <link rel="stylesheet" href="./css/media-query-lt-991-all-page.css" />
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark container fixed-top"
+      >
         <i class="far fa-2x fa-pause-circle pause-icon"></i>
-        <a class="navbar-brand" id="nav-home" href="#">BABE</a>
+        <a class="navbar-brand" id="nav-home" href="./index.html">BABE</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -60,7 +63,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <span class="navbar-text mr-auto">Personal Resume</span>
+          <span class="navbar-text mr-auto"></span>
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="index.html">About</a>
@@ -69,11 +72,49 @@
               <a class="nav-link" href="experience.html">Experience</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="connect.html">Connect</a>
+              <a class="nav-link" href="honor.html">Honors & Awards</a>
             </li>
           </ul>
         </div>
       </nav>
+      <div style="height: 56px"></div>
+      <div class="content-header row">
+        <div class="content-header-text">Honors & Awards</div>
+      </div>
+      <div class="content-body row justify-content-center">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="./assets/cit-banner.png"
+            alt="cit logo"
+          />
+          <div class="card-body">
+            <h5 class="card-title">HACKATHON INSURTECH IGNITE #2</h5>
+            <h6 class="card-subtitle text-muted">2019</h6>
+            <p class="card-text">
+              Honorable Mention Award – Create mobile application mockup about
+              car insurance which user can take picture of damaged car and sent
+              to a system then user can know a price which can help user save
+              their time and don’t need to wait insurance company.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./assets/azure.png" alt="azure logo" />
+          <div class="card-body">
+            <h5 class="card-title">
+              AZURE INSPIRE 2018: GEEK-A-THON BY MICROSOFT THAILAND
+            </h5>
+            <h6 class="card-subtitle text-muted">2018</h6>
+            <p class="card-text">
+              2nd place competed with 25 teams selected from all place in
+              Thailand. - Create web application prototype "ICanGo" to help solo
+              traveler to have new experience in travelling around the world and
+              help local economic better.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

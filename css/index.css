@@ -1,5 +1,5 @@
 body {
-  height: 99vh;
+  height: max-content;
   background: linear-gradient(
     0deg,
     rgba(70, 70, 70, 1) 0%,
@@ -14,7 +14,7 @@ body {
   margin-right: 10px;
 }
 
-.container {
+div.container {
   padding: 0px;
   height: 100%;
   background-color: #232323;
@@ -32,7 +32,7 @@ body {
   margin: 5px;
 }
 .content-body {
-  margin-top: 35px;
+  margin: 35px;
   color: #fff;
   font-family: Quicksand;
   font-size: 24px;
@@ -44,12 +44,13 @@ body {
   font-family: Quicksand;
   font-size: 48px;
   font-weight: 700;
-  padding-left: 1.25em;
+  padding-left: 7%;
   letter-spacing: 5px;
 }
-
+.content-header-link {
+  padding-right: 7%;
+}
 .content-body-side {
-  margin: 30px;
   margin-left: 60px;
   margin-right: 60px;
   height: 250px;
@@ -67,4 +68,65 @@ body {
 }
 .indent {
   text-indent: 3em;
+}
+
+.bold {
+  color: #aaa;
+  font-weight: 900;
+}
+.skill {
+  font-size: 13px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .content-body-side {
+    max-width: none;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .indent {
+    font-size: 15px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .content-body-side {
+    max-width: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .content-body {
+    margin: 10px;
+  }
+  .content-body-side {
+    margin-left: 0px;
+    margin-right: 90px;
+    height: 250px;
+    text-align: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .content-body-side {
+    margin-left: 0px;
+    margin-right: 60px;
+    height: 250px;
+    text-align: center;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .content-body .content-body-side {
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 250px;
+    text-align: center;
+  }
 }
